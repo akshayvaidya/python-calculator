@@ -9,16 +9,16 @@ def calculator():
         if choice == 0:
             break
         elif choice==1:
-            x,y= map(int,input("Enter numbers : "))
+            x,y= map(int,input("Enter numbers : ").split(','))
             print(add(x,y))
         elif choice==2:
-            x,y= map(int,input("Enter numbers : "))
+            x,y= map(int,input("Enter numbers : ").split(','))
             print(sub(x,y))
         elif choice==3:
-            x,y= map(int,input("Enter numbers : "))
+            x,y= map(int,input("Enter numbers : ").split(','))
             print(mul(x,y))
         elif choice==4:
-            x,y= map(int,input("Enter numbers : "))
+            x,y= map(int,input("Enter numbers : ").split(','))
             print(div(x,y))
         else:
             pass
